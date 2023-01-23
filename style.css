@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body {
+    background-color: #f2f2f2;
+    font-family: Lato, serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Railway, serif;
+    font-weight: 300;
+    color: #333;
+}
+
+i {
+    font-family: fontawesome, serif !important;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+a:hover, a:focus {
+    color: #f85c37;
+    text-decoration: none;
+    outline: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+
+/* Add this CSS to change the background color when the navbar is expanded */
+.navbar.navbar-light.bg-light.show {
+    background-color: black;
+}
+
+#Movie a {
+    text-decoration: none;
+    font-family: Bahnschrift, serif;
+    font-size: 25px;
+}
+
+#Movie li {
+    display: block;
+}
+
+.bg {
+  /*  background-color: #51585e;*/
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bg-main {
+    border-top-right-radius: 5px;
+    background-color: white;
+    /*border: solid 1px;*/
+}
+
+.pic img {
+    float: left;
+    height: 100px;
+    width: 65px;
+    /*background-color: #51585e;*/
+    background-color: #51585e;
+}
+
+.cont {
+    display: inline-block;
+}
+
+.fa-circle {
+    font-size: 8px;
+}
+
+.box {
+    box-sizing: border-box;
+    border: solid 1px black;
+    margin: 10px;
+    border-radius: 5px;
+}
+.pic{
+    margin: 0 0 8px 0;
+}
+#Movie .carousel-item {
+    height: 40rem;
+    background: #000;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+}
+.carousel-item .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    /*opacity: 0.5;*/
+}
+
+#Home .carousel-item {
+    height: 50rem;
+    background: #000;
+    color: white;
+    position: relative;
+}
+.scrollspy-example{
+    height: 350px;
+    overflow: hidden;
+}
+.scrollspy-example:hover{
+    overflow-y: auto;
+}
+
+#Home a {
+    text-decoration: none;
+    font-family: Bahnschrift, serif;
+    font-size: 25px;
+}
+
+#Home li {
+    display: block;
+}
+#Events a {
+    text-decoration: none;
+    font-family: Bahnschrift, serif;
+    font-size: 25px;
+}
+
+#Events li {
+    display: block;
+}
